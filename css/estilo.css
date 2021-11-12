@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3{
+    color: #333;
+}
+
+p {
+    color: #70747A;
+}
+
+.top-contact{
+    background-color: #09099b;
+    height: 30px;
+    width: 100%;
+    position: relative;
+}
+
+.top-contact address{
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+}
+
+.header-nav {
+    height: 80px;
+    background-color: #3366ff; 
+}
+
+.header-nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px 0 0;
+    
+}
+
+.header-nav a {
+    color: #fff;
+}
