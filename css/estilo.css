@@ -21,18 +21,27 @@ p {
 
 .top-contact address{
     color: #fff;
+    padding:0 4em;
     display: inline-block;
-    position: absolute;
+    margin: 0 50px;
+    
+    
 }
 
 .header-nav {
     height: 80px;
+    width: 100%;
     background-color: #3366ff; 
+    position: relative;
+    
+  
 }
 
 .header-nav ul{
-    margin: 0;
-    padding: 0;
+    position: absolute;
+    
+    
+
 }
 
 .header-nav li{
