@@ -38,6 +38,7 @@ p {
 }
 
 .header-nav ul{
+    /*colocar a lista para o lado direito-- */
     position: absolute;
     
     
@@ -53,4 +54,11 @@ p {
 
 .header-nav a {
     color: #fff;
+    text-decoration: none;
+}
+
+.sobre{
+    margin: 50px 0 50px 0;
+    border-top: 3px solid #3366ff;
+    border-bottom: 3px solid #3366ff;
 }
