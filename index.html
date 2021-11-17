@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,20 @@
     <title>FlexBlog</title>
     <link rel="stylesheet" href="css/estilo.css">
 </head>
+
 <body>
     <div id="container">
 
-        <div class="top-contact">
-           <address>Seg/Sex-08:00 ás 18:00</address>
-                <address>+55 21 9999-9999</address>
-                <address>Av Ali Perto,330, Botafogo-Rj</address>
-            </div>
-            
-            <nav class="header-nav">
-                <ul>
-                    <li><a href="#" class="Logoflex">FlexBlog</a></li>
+        <div class="andress-container">
+            <address>Seg/Sex-08:00 ás 18:00</address>
+            <address>+55 21 9999-9999</address>
+            <address>Av Ali Perto,330, Botafogo-Rj</address>
+        </div>
+
+        <div class="nav-container">
+            <nav>
+                <h2 class="flex">FlexBlog</h2>
+                <ul class="nav-items">
                     <li><a href="#">Sobre</a></li>
                     <li><a href="#">Produtos</a></li>
                     <li><a href="#">Preço</a></li>
@@ -27,24 +30,85 @@
             </nav>
         </div>
         <div class="conteudo">
-            <h1>Novos valores e 
-            Propriedades do Css</h1>
+            <h1 class="titulo">Novos valores e <br>
+                Propriedades do Css</h1>
 
-            <div class="sobre">
-                <h2>Sobre</h2>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium eum dolorem voluptatibus illum fuga excepturi natus adipisci corporis, quod ab placeat dolorum earum, minus dicta, quibusdam commodi. Dolor, pariatur esse.<br>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque temporibus iusto dolor nisi similique illum, nemo tempora possimus dolore unde delectus? Iste ullam magni optio rerum ducimus. Ex, ullam quasi.</p>
+            <article class="sobre">
+                <h2 class="h2sobre">Sobre</h2>
+                <p class="psobre"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium eum dolorem
+                    voluptatibus illum
+                    fuga excepturi natus adipisci corporis, quod ab placeat dolorum earum, minus dicta, quibusdam
+                    commodi. Dolor, pariatur esse.<br>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque temporibus iusto dolor nisi
+                    similique illum, nemo tempora possimus dolore unde delectus? Iste ullam magni optio rerum ducimus.
+                    Ex, ullam quasi.</p>
+
                 <img src="img/IMG_2202.JPG" alt="moça em pe">
                 <img src="img/IMG_2203.JPG" alt="pintura">
+            </article>
+        </div>
+        <h2 class="hgallery">Produtos</h2>
+
+        <section class="gallery">
+
+            <article class="gallery-card">
+                <p class="gallery-title">Purble</p>
+                <img src="img/IMG_2205.JPG" alt="purple">
+            </article>
+
+            <article class="gallery-card">
+                <p class="gallery-title">Pink</p>
+                <img src="img/IMG_2206.JPG" alt="pink">
+            </article>
+
+            <article class="gallery-card">
+                <p class="gallery-title">Blue</p>
+                <img src="img/IMG_2207.JPG" alt="blue">
+            </article>
+        </section>
+        <section class="pricing-container"></section>
+            <div class="plans-container">
+                <div class="plan">
+                    <ul>
+                        <li class="plan-name">Cobre</li>
+                        <li class="price">R$19</li>
+                        <li>Planos ilimitados</li>
+                        <li>Acesso Restrito</li>
+                        <li>Conteúdo Secreto</li>
+                        <li>Suporte 24h</li>
+                        <li class="plan-btn">COMPRAR</li>
+                    </ul>
+                </div>
+                <div class="plan">
+                    <ul>
+                        <li class="plan-name">Prata</li>
+                        <li class="price">R$39</li>
+                        <li>Planos ilimitados</li>
+                        <li>Acesso Restrito</li>
+                        <li>Conteúdo Secreto</li>
+                        <li>Suporte 24h</li>
+                        <li>Compra Exclusiva</li>
+                        <li class="plan-btn">COMPRAR</li>
+                    </ul>
+                </div>
+                <div class="plan">
+                    <ul>
+                        <li class="plan-name">Ouro</li>
+                        <li class="price">R$79</li>
+                        <li>Planos ilimitados</li>
+                        <li>Acesso Restrito</li>
+                        <li>Conteúdo Secreto</li>
+                        <li>Suporte 24h</li>
+                        <li>Compra Exclusiva</li>
+                        <li>Download dos itens</li>
+                        <li class="plan-btn">COMPRAR</li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        <div class="gallery">
-            <h2>Produtod</h2>
-            <img src="img/IMG_2205.JPG" alt="purple">
-            <img src="img/IMG_2206.JPG" alt="pink">
-            <img src="img/IMG_2207.JPG" alt="blue">
-        </div>
-        
-    
+    </div>
+
+
+
 </body>
+
 </html>
