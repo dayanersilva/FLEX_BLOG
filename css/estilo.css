@@ -171,16 +171,12 @@ p {
     margin: 5px solid #fff;
     text-align: center;
     line-height: 30px;
-    l
-    
 
 }
 
 .plan li{
     background-color: gainsboro;
     font-style: italic;
-    
-    
 }
 
 .plan .plan-name, .price, .plan-btn{
