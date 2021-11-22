@@ -95,35 +95,66 @@ img{
 }
 
 .hpro{
-    margin: 30px 0 30px 140px;
+    margin: 30px 0 0px 140px;
 }
 
 .gallery{
-    color: rgb(150, 140, 140);
+    height: 500px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 0 100px ;
+    box-sizing: border-box;
 }
 
 .gallery-card{
-    height: 350px;
-    width: 150px;
+    height: 300px;
+    width: 200px;
     background-color: gainsboro;
+    margin: 0 90px;
     align-items: flex-end;
-    padding: 0 30px;
+}
+
+.purple{
+    color: #70747A;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 40px;
+    border-top: 8px solid #ac00e6;
     box-sizing: border-box;
-    
-
 }
 
-.gallery-title{
-    
-    
-    
+.pink{
+    color: #70747A;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 40px;
+    border-top: 8px solid #ff0080;
+    box-sizing: border-box;
 }
+
+.blue{
+    color: #70747A;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 40px;
+    border-top: 8px solid #80dfff;
+    box-sizing: border-box;
+}
+    
+    
+    
+    
 
 .gallery-card img{
-    width: 150px;
-    height: 200px;
+    height:300px;
+    width: 250px;
+    padding: 100px 50px 0 0 ;
+  
+   box-sizing: border-box;
 }
 
 .plans-container{
