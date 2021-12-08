@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2, p{
+    color: #313131;
+}
+
+/*Menu Superior*/
+.contato{
+    background-color: #0000ca;
+}
+
+.info{
+    max-width: 1024px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info p{
+    margin: 0 20px;
+    color: white;
+}
+
+/*Menu Principal*/
+header{
+    background-color: #507bf1;
+    color: #fff;
+}
+
+.menu-principal{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 1.1em;
+    margin: 20px;
+}
+
+.menu{
+    font-size: 1.2em;
+}
+
+.menu li{
+    display: inline;
+    padding: 20px;
+}
